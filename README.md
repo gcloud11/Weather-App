@@ -2,7 +2,7 @@
 
 In this project a weather dashboard was created using a third-party API that will run in the browser and feature dynamically updated HTML and CSS.
 
-##User Story:
+User Story:
 ```
 AS A traveler
 I WANT to see the weather outlook for multiple cities
@@ -10,7 +10,7 @@ SO THAT I can plan a trip accordingly
 
 ```
 
-##Acceptance Criteria:
+Acceptance Criteria:
 ```
 -GIVEN a weather dashboard with form inputs
 -WHEN I search for a city
