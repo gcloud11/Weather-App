@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <link rel="stylesheet" href="Assets/style.css"> 
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <header class="header">
+                <h2>Weather Dashboard</h2>
+            </header>
+
+            <div class="welcome">
+                <h4> Welcome! Search a city for weather information.</h4>
+            </div>
+    
+            <h5 class="label">Search for a city here:</h5>
+
+    
+            <div class="row">
+                <div id="city-searches">
+                    <input type="text" class="search-input" placeholder="City" id="inputVal"> 
+                    <button id="city" type="button" class="btn btn-primary save-btn">Search</button> <br> <br>
+
+                    <div class="card hide" style="width: 18rem;">
+                        <ul class="list-group list-group-flush" id="city-list"></ul>
+                    </div>
+                </div>
+
+    
+                <div class="city hide">
+                    <h1 id="title"></h1>
+                    <h6>Temperature:<span id="temp" ></span></h6>
+                    <h6>Humidity:<span id="humid" ></span></h6>
+                    <h6>Wind Speed:<span id="wind" ></span></h6>
+                    <h6 id="indexUV">UV Index: <span id="index" ></span></h6>
+                    
+                </div>
+    
+                <div>
+                    <div class="5-Day hide">
+                    <h2 class="day">5-Day Forecast</h2>
+                    </div>
+                </div>
+    
+                <div id="forecastBelow"></div>
+    
+            </div>
+    
+            <div class="footer"></div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/43ea2ededa.js"></script>
+        <script src="Assets/script.js"></script>
+        
+    </body>
+</html>
