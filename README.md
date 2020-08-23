@@ -1,17 +1,15 @@
 # Weather-App
-
-In this project a weather dashboard was created using a third-party API that will run in the browser and feature dynamically updated HTML and CSS.
-
-User Story:
 ```
+In this project a weather dashboard was created using a third-party API that will run in the browser and feature dynamically updated HTML and CSS.
+```
+```
+User Story:
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
-
 ```
-
+```
 Acceptance Criteria:
-```
 -GIVEN a weather dashboard with form inputs
 -WHEN I search for a city
 -THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -25,7 +23,6 @@ Acceptance Criteria:
 -THEN I am again presented with current and future conditions for that city
 -WHEN I open the weather dashboard
 -THEN I am presented with the last searched city forecast
-
 ```
 <img width="1181" alt="Screen Shot 2020-08-10 at 11 19 15 PM" src="https://user-images.githubusercontent.com/67169488/89856850-06769700-db60-11ea-874c-6c2fdfe341e6.png">
 
